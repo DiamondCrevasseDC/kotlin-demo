@@ -1,0 +1,41 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  application:
+    name: demo
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/xxx?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#    username: xxx
+#    password: xxx
+#    druid:
+#        max-active: 20
+#        min-idle: 0
+#        max-wait: 5000
+    jackson:
+      default-property-inclusion: non_null
+      time-zone: Asia/Shanghai
+      deserialization:
+        fail-on-null-for-primitives: true
+        use-bid-decimal-for-floats: true
+#      autoconfigure:
+#        exclude: org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+      cache:
+        type: guava
+
+logging:
+  level:
+    root: INFO
+    com:
+      lingye:
+        demo: INFO
+  file:
+    path: ./logs
+
+#config:
+#  datasource:
+#    type: druid
+
