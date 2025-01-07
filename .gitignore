@@ -44,7 +44,6 @@ out/
 /logs/demo/common-error.log
 /src/main/kotlin/com/lingye/demo/Solution.kt
 /src/main/kotlin/com/lingye/demo/IntensitySegments.kt
-/gradle/
-/logs/
-/gradlew
-/gradlew.bat
+
+
+/gradle/wrapper/gradle-8.11.1-bin.zip
