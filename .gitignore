@@ -42,6 +42,7 @@ out/
 .kotlin
 /logs/demo/default.log
 /logs/demo/common-error.log
+/src/main/kotlin/com/lingye/demo/Demo.kt
 /src/main/kotlin/com/lingye/demo/Solution.kt
 /src/main/kotlin/com/lingye/demo/IntensitySegments.kt
 
